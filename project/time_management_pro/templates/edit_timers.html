@@ -1,0 +1,28 @@
+<!-- GROK HELPED BIG TIME HERE THE LOGIC WAS A BIT MUCH AND IT HELPED ME GET THE IDEA TO USE CSS GRID LAYOUT -->
+
+<!-- Edit timer items -->
+<div class="flex-container">
+    {% for entry in timers %}
+        <div class="timer-item">
+            <form method="post" action="/edit_timer" id="edit_timer_{{ entry.id }}">
+
+                <!-- Hidden input for timer ID -->
+                <input type="hidden" name="timer_id" value="{{ entry.id }}">
+
+                <!-- Timer contents -->
+                <div class="timer-contents">
+                    <label>{{ entry.names }}</label>
+
+                    <!-- Rename text field -->
+                    <input type="text" id="md_text_form" name="rename_timer" class="form-control" autocomplete="off" placeholder="Rename {{ entry.names }}" maxlength="15">
+
+                    <!-- Submit button -->
+                    <button type="submit" id="submit_btn" class="btn btn-primary btn-lg">Submit</button>
+
+                    <!-- Delete button -->
+                    <button type="submit" id="delete_btn" class="btn btn-primary btn-lg" name="action" value="delete">Delete "{{ entry.names }}" Timer</button>
+                </div>
+            </form>
+        </div>
+    {% endfor %}
+</div>

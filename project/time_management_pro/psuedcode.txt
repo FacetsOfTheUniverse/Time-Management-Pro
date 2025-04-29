@@ -1,0 +1,63 @@
+Current Task: Figure out how to make “Timer Name” Change with the current timer selected by clicking a Timer on Timer_list
+
+When timer_list_button pressed
+open timer list
+if button pressed set "current_timer" variable to name and id of button pressed
+closes modal
+
+the current_timer variable will then update the Timer_Name on what it should say (also the entrys for new timers, the amount of characters the user can input for Timer_Name should be limited (15 maybe?))
+
+
+So how will this work the button in the html must be pushed and then I guess it should send its current name somehow to java script and then to python to change the Current_timer global variable?
+Now when I use the timer it will save my entry to the category of "current_timer" So current timer acts as like a commander sort of?
+
+
+Okay this psuedocode is great but how? lets brain storm.
+
+currently I have an <a> tag inplememnted in my index.html file that toggles our modal when clicked and also
+has the name of our {{ current_timer_selected }}. so this is all implemented on our front end.
+there are no back end connections yet to either python or SQLite3 except a global variable current_timer_selected set to "Select Timer"
+
+there is a problem however my <a> tag needs its {{ current_timer_selected }} feild to change ascyncronisly
+
+So the question is two fold:
+
+how do I get my a tag to change acychronisly
+
+how do I make it so that when I click a button on timer list it changes the current_timer_selected global variable.
+
+
+So I need to make it so that when I click on a button Java script notices this and gets the current name of that button
+then it updates the database with an ajax request
+then process this request in python
+
+
+----------------------------
+Current Task: Create something to log the status of our current selected timers id so that we can log the information correctly
+
+Cheif question: can we make a blank similar to session["user_id"] that instead holds the timers_id   session["timers_id"]
+
+
+----------------------------
+Current Task: Create our "edit timers" page
+
+there are two features I would like the page to have: a Delete button and a Rename text field
+How should the page operate?
+should we enable you to press radio buttons above a delete feild and then be able to fill in the timer name feild and hit a save button to submit the form
+should we allow AJAX so that as soon as you hit delete the item is gone.
+should we enable you to press o the buitton and then decide how to delete it or edit it? how best to craft this part?
+
+For each Timer
+
+    Create a form with:
+    One Radio Input
+    The Name of the Timer
+    One Text Input
+
+
+
+Maybe work on the Daily Timer Library Page next just for fun or as relief I should say.
+
+Current Task: How can I display all the timers Names from timers and the sum of time_logged from timers_log
+
+Lets step back here im pretty sure the way im doing it is dumb

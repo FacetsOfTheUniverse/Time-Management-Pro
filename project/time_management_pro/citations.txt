@@ -1,0 +1,58 @@
+Software Development Life Cycle:
+https://www.geeksforgeeks.org/software-development-life-cycle-sdlc/
+https://www.youtube.com/watch?v=Fi3_BjVzpqk
+I went with the Waterfall Model:
+https://www.geeksforgeeks.org/waterfall-model/
+
+
+
+Java:
+
+Bro Code: Basic Java Timer Tutorial https://www.youtube.com/watch?v=d8-LGhKtzRw
+
+Bro Code: Countdown timer program in Python https://www.youtube.com/watch?v=KseiSR0MCTI
+
+W3schools:
+https://www.w3schools.com/jsref/event_onclick.asp
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_countdown
+
+Grok 2 helped me understand how AJAX works and how to implement the collecting and sending of data from the client side to the server side of my application
+
+
+
+
+Understanding Data Flow:
+
+Web Dev Simplified: AJAX Fetch API https://www.youtube.com/watch?v=cuEtnrL9-H0
+
+HTTP Methods (GET/POST) & Retrieving Form Data https://www.youtube.com/watch?v=9MHYHgh4jYc
+
+Sending POST requests using AJAX (via JavaScript)to a Python Backend (via Flask) https://www.youtube.com/watch?v=-XchxUQTcfQ
+
+Julian Nash: https://www.youtube.com/watch?v=QKcVjdLEX_s
+
+AJAX: https://www.itpro.com/development/ajax/360007/building-an-ajax-based-crud-app-in-flask
+Flask/Ajax: https://medium.com/data-science/using-python-flask-and-ajax-to-pass-information-between-the-client-and-server-90670c64d688
+CRUD: https://www.askpython.com/python-modules/flask/flask-crud-application
+
+Nesting dics in lists https://www.youtube.com/watch?v=lffEqO_5Bfk
+
+
+
+
+Html/Css:
+
+Flexbox: https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_flex-grow
+
+https://www.w3schools.com/css/css3_flexbox_container.asp
+
+
+Grok:
+
+Grok was a huge help with the whole project. It helped me understand some of the conventions of css,
+helped me write JavaScript (I'm bad at JavaScript), helped me understand the flow of data and how it should
+flow from backend to front end (and visa versa), helped me understand flexbox and css grid
+and broadened my knowledge and understanding of the subject of software engineering as a whole.
+I tried to use Grok in a way that wouldn't supplant my work but as a tool
+to help me when I got stuck and as a way to find solutions to problems
+instead of diving through mounds of documentation looking for the answer.

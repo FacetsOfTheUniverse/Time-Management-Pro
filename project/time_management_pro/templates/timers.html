@@ -1,0 +1,22 @@
+<!-- this uses the data from the timers route to create a display of our timers names and total time spent -->
+
+{% extends "layout.html" %}
+
+{% block title %}
+Time Management Pro
+{% endblock %}
+
+{% block main %}
+
+    <div class="flex-container">
+        {% for timer in timers %}
+            <div class="timer-item">
+                <div class="timer_block">
+                    <div class="timer_block_name">{{ timer.name }}</div>
+                    <div class="timer_block_days_sum">{{ timer.total_time_logged }}</div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}

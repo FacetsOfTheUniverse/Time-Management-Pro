@@ -1,0 +1,14 @@
+<!-- This is our timer list html which populates our Select a Timer Modal in index.html -->
+
+<div class="flex-container">
+
+    {% for entry in timers %}
+
+        <div class="timer-item">
+            <div class="timer-button">
+                <!-- Select Timer Button -->
+                <button type="button" class="select-timer col-12 btn btn-primary" data-bs-dismiss="modal" onclick="selectTimer('{{ entry.names }}')">{{ entry.names }}</button>
+            </div>
+        </div>
+    {% endfor %}
+</div>
